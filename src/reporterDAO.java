@@ -19,6 +19,7 @@ public class reporterDAO {
             int credit = rs.getInt(3);
             System.out.println("Pseudo:" + pseudo);
             System.out.println("Credit:" + credit);
+            //test
         }
         cx.close();
     }
