@@ -8,7 +8,6 @@ public class reporterDAO {
         PreparedStatement stmt = cx.prepareStatement("Select * From reporter Where id= ?");
         stmt.setInt(1,id);
         ResultSet rs = stmt.executeQuery();
-        //System.out.println(rs.next());
         while (rs.next()) {
             int idReporter = rs.getInt(1);
             String pseudo = rs.getString(2);

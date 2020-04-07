@@ -5,7 +5,6 @@ public class ConnectDB {
     public static Connection connection() throws  ClassNotFoundException, SQLException {
         Class.forName("org.apache.derby.jdbc.EmbeddedDriver");
         var cx = DriverManager.getConnection("jdbc:derby:db/test_ip");
-        //System.out.println("connexion établie");
         return cx;
     }
     public static void deconnect (Connection cx) throws  SQLException {
