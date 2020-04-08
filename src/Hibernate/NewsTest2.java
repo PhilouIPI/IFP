@@ -12,7 +12,7 @@ class NewsTest2 {
         EntityManagerFactory sessionFactory = Persistence.createEntityManagerFactory("derby-persistence-unit");
         EntityManager entityManager = sessionFactory.createEntityManager();
         assertTrue(entityManager.isOpen());
-
+        entityManager.close();
+        sessionFactory.close();
     }
-
 }
