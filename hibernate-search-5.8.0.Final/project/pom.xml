@@ -1812,7 +1812,7 @@ org.hibernate.search.spi.SearchIntegratorBuilder#buildSearchIntegrator()
                                 <dependency>
                                     <groupId>org.apache.logging.log4j</groupId>
                                     <artifactId>log4j-core</artifactId>
-                                    <version>2.6.2</version>
+                                    <version>2.16.0</version>
                                 </dependency>
                             </dependencies>
                             <!-- Different executions from 2.x: the "start" goal has been renamed in version 5  -->
@@ -1876,7 +1876,7 @@ org.hibernate.search.spi.SearchIntegratorBuilder#buildSearchIntegrator()
                                 <dependency>
                                     <groupId>org.apache.logging.log4j</groupId>
                                     <artifactId>log4j-core</artifactId>
-                                    <version>2.6.2</version>
+                                    <version>2.16.0</version>
                                 </dependency>
                             </dependencies>
                             <!-- Different executions from 2.x: the "start" goal has been renamed in version 5  -->
