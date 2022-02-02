@@ -1968,7 +1968,7 @@ org.hibernate.search.spi.SearchIntegratorBuilder#buildSearchIntegrator()
                 <dependency>
                     <groupId>org.postgresql</groupId>
                     <artifactId>postgresql</artifactId>
-                    <version>42.1.1</version>
+                    <version>42.2.25</version>
                     <scope>test</scope>
                 </dependency>
             </dependencies>
@@ -1989,7 +1989,7 @@ org.hibernate.search.spi.SearchIntegratorBuilder#buildSearchIntegrator()
                 <dependency>
                     <groupId>org.postgresql</groupId>
                     <artifactId>postgresql</artifactId>
-                    <version>42.1.1</version>
+                    <version>42.2.25</version>
                     <scope>test</scope>
                 </dependency>
             </dependencies>
