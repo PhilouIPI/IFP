@@ -1947,7 +1947,7 @@ org.hibernate.search.spi.SearchIntegratorBuilder#buildSearchIntegrator()
                     <groupId>mysql</groupId>
                     <artifactId>mysql-connector-java</artifactId>
                     <!-- Version 6.0.5 fails with a ArrayIndexOutOfBoundsException during connection, so we'll stick to 5.x for now -->
-                    <version>5.1.13</version>
+                    <version>8.0.28</version>
                     <scope>test</scope>
                 </dependency>
             </dependencies>
